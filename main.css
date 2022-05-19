@@ -1,0 +1,23 @@
+.centre_align {
+    text-align: center;
+}
+
+.child {
+    width: 150px;
+    height: 200px;
+    /* Center horizontally*/
+    margin: auto;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    background-color: #f78981;
+    border-color: black;
+    margin: 4px;
+}
+
+#heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
