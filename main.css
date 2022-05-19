@@ -1,20 +1,48 @@
-.centre_align {
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.child1 {
     text-align: center;
+
 }
 
 .child {
     width: 150px;
     height: 200px;
-    /* Center horizontally*/
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
     margin: auto;
 }
 
 .btn {
     width: 150px;
     height: 50px;
+    font-size: 18px;
     background-color: #f78981;
-    border-color: black;
+    border-radius: 3px;
+    cursor: pointer;
     margin: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.01);
 }
 
 #heading {
